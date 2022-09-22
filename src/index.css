@@ -185,7 +185,7 @@ html {
   }
 
   .project-card{
-    background-color: gray;
+    background-color: lightskyblue;
     max-width: 1000px;
     width: 50%;
     display: flex;
@@ -195,27 +195,45 @@ html {
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
   }
 
+  .project-card:hover{
+    scale: 1.05;
+    transition: 500ms;
+  }
+
   .card-title{
     display: flex;
     justify-content: center;
     width: 100%;
   }
 
- 
+  .smartbrain{
+    display: block;
+    
+    
 
-  .card-text{
+  }
+
+  .card-text a {
     display: flex;
     justify-content: center;
   }
 
-  .smartbrain{
-    display: block;
-    
+  
 
+  .project-link{
+    display: inline-flex;
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    
+    
   }
 
-  .mutkis{
-    display: block;
-    
-    
+  .image{
+    background-image: url(./smartbrain.png);
+    background-size: 500px 500px;
   }
