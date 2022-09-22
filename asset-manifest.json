@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ville-Portfolio/static/css/main.69cbc613.css",
+    "main.js": "/Ville-Portfolio/static/js/main.74de5a7e.js",
+    "index.html": "/Ville-Portfolio/index.html",
+    "main.69cbc613.css.map": "/Ville-Portfolio/static/css/main.69cbc613.css.map",
+    "main.74de5a7e.js.map": "/Ville-Portfolio/static/js/main.74de5a7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69cbc613.css",
+    "static/js/main.74de5a7e.js"
+  ]
+}
