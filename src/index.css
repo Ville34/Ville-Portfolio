@@ -63,7 +63,7 @@ html {
   .link li a{
     color: black;
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 40px;
     font-weight: bold;
     text-decoration: none;
 
@@ -187,11 +187,13 @@ html {
   .project-card{
     background-color: lightskyblue;
     max-width: 1000px;
+    aspect-ratio: 1;
     width: 50%;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     margin: 20px;
+    font-size: 1.5rem;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
   }
 
@@ -228,6 +230,7 @@ html {
     color: blue;
     justify-content: center;
     background-color: lightblue;
+    
     border-radius: 5px;
     
     
