@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-
+import { DiGithubBadge } from "react-icons/di";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import './contact.css'
 
 const Contact = () => {
@@ -35,7 +36,9 @@ const Contact = () => {
 
     return (
         <div id="contact-form">
-            <h3>Contact me!</h3>
+            <h3>Contact me! 
+                <a className="contact-icons" href='https://github.com/Ville34'><DiGithubBadge /></a>
+                <a className="contact-icons" href='https://www.linkedin.com/in/ville-suutari-188646228/'><AiOutlineLinkedin /></a></h3>
             <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
             <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
             <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
