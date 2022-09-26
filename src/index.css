@@ -220,20 +220,29 @@ html {
 
   }
 
+  .project-text{
+    padding-bottom: 150px;
+  }
+
   .card-text a {
     display: flex;
     justify-content: center;
+    align-self: flex-end;
+    padding: 10px;
+    margin: 20px;
   }
 
   
 
   .project-link{
-    display: inline-flex;
+    display: flex;
     margin: 10px;
     font-size: 15px;
     text-decoration: none;
-    color: blue;
+    font-weight: bold;
+    color: black;
     justify-content: center;
+    align-self:auto;
     background-color: lightblue;
     
     border-radius: 5px;
