@@ -1,0 +1,111 @@
+.about{
+    max-width: 1000px;
+    
+  }
+
+  .about-title{
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+
+  .about-text{
+    max-width: 1000px;
+    display: flex;
+    
+    justify-content: center;
+
+    
+    
+  }
+  .about-p{
+    width: 100%;
+    font-size: 2.5vmin;
+  }
+
+  .languages{
+    background-color: gray;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    
+    
+  }
+
+  .languages p{
+    
+    font-size: 2.5vmin;
+  }
+
+  .languages:hover{
+    scale: 1.05;
+    transition: 500ms;
+  }
+
+  .icons{
+    margin: 5px;
+    margin-top: 25px;
+    font-size: 4vmin;
+    display: flex;
+    align-items: center;
+    
+
+  }
+  .front-icons{
+    display: flex;
+    flex-direction: row;
+  }
+  .back-icons{
+    display: flex;
+    flex-direction: row;
+  }
+  .icons:hover{
+    scale: 1.1;
+    
+  }
+
+  .react-icon {
+    color: rgb(107, 195, 250);
+    
+
+
+  }
+
+  .js-icon {
+    color: yellow;
+    
+  }
+
+  .css-icon {
+    color: blue;
+    
+  }
+
+  .html-icon {
+    color: orangered;
+    
+  }
+
+  .bootstrap-icon{
+    color: blueviolet;
+  }
+
+  
+
+  .node-icon{
+    color: green;
+    font-size: 70px;
+    
+  }
+
+  .psql-icon{
+    color: white;
+    
+    
+  }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { DiReact, DiJsBadge, DiCss3, DiHtml5, DiBootstrap, DiNodejs, DiPostgresql } from "react-icons/di";
+import "./about.css"
+
 class About extends Component {
 	render() {
 		return(

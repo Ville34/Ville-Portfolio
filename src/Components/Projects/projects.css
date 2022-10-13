@@ -1,0 +1,70 @@
+.projects{
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-card{
+    background-color: lightskyblue;
+    max-width: 1000px;
+    aspect-ratio: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 2.5vmin;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+  }
+
+  .project-card:hover{
+    scale: 1.05;
+    transition: 500ms;
+  }
+
+  .card-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .smartbrain{
+    display: block;
+    
+    
+
+  }
+
+  .project-text{
+    padding-bottom: 150px;
+  }
+
+  .card-text a {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  
+
+  .project-link{
+    display: flex;
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    align-self:auto;
+    background-color: lightblue;
+    
+    border-radius: 5px;
+    
+    
+  }
+
+  .image{
+    background-image: url(./smartbrain.png);
+    background-size: 500px 500px;
+  }

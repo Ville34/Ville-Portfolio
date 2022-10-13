@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import "./home.css"
-import About from './About.js';
-import Projects from "./Projects";
-import Contact from "./Contact";
+import About from '../About/About.js';
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 class Home extends Component {
 	render() {
