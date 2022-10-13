@@ -18,12 +18,7 @@ html {
   }
 
   
-  h1, h2, p {
-    
-    display: flex;
-    justify-content: center;
-    
-  }
+  
   .logo{
     margin-left: 50px;
     font-weight: bold;
@@ -39,7 +34,6 @@ html {
 
   ul.navigation {
     background-color: white;
-    
     margin: 0;
     height: 100%;
     list-style: none;
@@ -111,7 +105,10 @@ html {
   .languages{
     background-color: gray;
     width: 50%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
@@ -120,8 +117,7 @@ html {
   }
 
   .languages p{
-    display: flex;
-    align-items: center;
+    
     font-size: 2.5vmin;
   }
 
@@ -134,12 +130,19 @@ html {
     margin: 5px;
     margin-top: 25px;
     font-size: 4vmin;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     
 
   }
-  
+  .front-icons{
+    display: flex;
+    flex-direction: row;
+  }
+  .back-icons{
+    display: flex;
+    flex-direction: row;
+  }
   .icons:hover{
     scale: 1.1;
     
@@ -171,9 +174,7 @@ html {
     color: blueviolet;
   }
 
-  .back-icons{
-    margin-left: 28%;
-  }
+  
 
   .node-icon{
     color: green;

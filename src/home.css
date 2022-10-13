@@ -50,7 +50,9 @@ span:hover {
     width: 100vw;
     padding: 200px 20px;
     display: flex;
+    flex-direction: column;
      justify-content: center;
+     align-items: center;
     
     font-size: 2rem;
     
