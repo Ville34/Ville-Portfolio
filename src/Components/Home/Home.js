@@ -7,8 +7,8 @@ import Contact from "../Contact/Contact";
 class Home extends Component {
 	render() {
 		return(
-			<div href="#top"className='main'>
-				<div id="top"className='header'>
+			<div className='main'>
+				<div id="home"className='header'>
 					<h1 className="title">
 						<span>H</span>
 						<span>e</span>

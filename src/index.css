@@ -31,6 +31,11 @@ html {
     color: cyan;
     transition: 500ms;
   }
+  .navbar{
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px black;
+  }
 
   ul.navigation {
     background-color: white;
@@ -38,7 +43,7 @@ html {
     height: 100%;
     list-style: none;
     display:flex;
-    position: sticky;
+    
     top: 0;
     z-index: 2;
     

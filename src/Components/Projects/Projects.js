@@ -14,9 +14,10 @@ class Projects extends Component {
 						</div>
 						<div className='card-text'>
 							<p className='project-text'>A web app using the clarifai API to detect faces from pictures. Has a fully working registration/login system using PSQL as a database to store information.</p>
-							<a className="project-link" href='https://github.com/Ville34/smartbrain'>Github repo</a>
-							<a className="project-link" href='https://smartbrain-vs.herokuapp.com/'>Live site(WAIT FOR 30sec FOR IT TO BUILD ON HEROKU)</a>
-							
+							<div className='links'>
+								<a className="project-link" href='https://github.com/Ville34/smartbrain'>Github repo</a>
+								<a className="project-link" href='https://smartbrain-vs.herokuapp.com/'>Live site(WAIT FOR 30sec FOR IT TO BUILD ON HEROKU)</a>
+							</div>
 						</div>
 					</div>
 					<div className='project-card image'>

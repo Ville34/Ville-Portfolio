@@ -5,11 +5,12 @@
 
   .project-card{
     background-color: lightskyblue;
+    
+    
+    width: 100%;
     max-width: 1000px;
-    aspect-ratio: 1;
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    height: auto;
+    
     border-radius: 20px;
     margin: 20px;
     font-size: 2.5vmin;
@@ -34,29 +35,42 @@
 
   }
 
-  .project-text{
-    padding-bottom: 150px;
+  .card-text {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+ 
 
   .card-text a {
     display: flex;
-    justify-content: center;
-    align-self: flex-end;
+    width: 100%;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
+    
+    
   }
-
+  .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    margin: 0 30px;
+    
+  }
   
 
   .project-link{
     display: flex;
-    margin: 10px;
+    
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
     color: black;
     justify-content: center;
-    align-self:auto;
+    
     background-color: lightblue;
     
     border-radius: 5px;
@@ -66,5 +80,7 @@
 
   .image{
     background-image: url(./smartbrain.png);
-    background-size: 500px 500px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
