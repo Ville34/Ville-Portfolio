@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Ville-Portfolio/static/css/main.030663d7.css",
-    "main.js": "/Ville-Portfolio/static/js/main.329f56ef.js",
+    "main.css": "/Ville-Portfolio/static/css/main.7a8cd7b4.css",
+    "main.js": "/Ville-Portfolio/static/js/main.0d046da4.js",
     "static/media/smartbrain.png": "/Ville-Portfolio/static/media/smartbrain.8c770611cdbd7570fe01.png",
     "index.html": "/Ville-Portfolio/index.html",
-    "main.030663d7.css.map": "/Ville-Portfolio/static/css/main.030663d7.css.map",
-    "main.329f56ef.js.map": "/Ville-Portfolio/static/js/main.329f56ef.js.map"
+    "main.7a8cd7b4.css.map": "/Ville-Portfolio/static/css/main.7a8cd7b4.css.map",
+    "main.0d046da4.js.map": "/Ville-Portfolio/static/js/main.0d046da4.js.map"
   },
   "entrypoints": [
-    "static/css/main.030663d7.css",
-    "static/js/main.329f56ef.js"
+    "static/css/main.7a8cd7b4.css",
+    "static/js/main.0d046da4.js"
   ]
 }
